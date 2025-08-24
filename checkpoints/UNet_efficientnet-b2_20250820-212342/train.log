@@ -1,0 +1,107 @@
+2025-08-20 21:23:42,473 | INFO | Checkpoints: checkpoints\UNet_efficientnet-b2_20250820-212342
+2025-08-20 21:23:42,556 | INFO | Seed: 42 | Deterministic: True
+2025-08-20 21:23:43,482 | INFO | Device: cuda (NVIDIA RTX A1000 Laptop GPU)
+2025-08-20 21:23:43,686 | INFO | Model: UNet/efficientnet-b2, encoder_weights=None
+2025-08-20 21:23:43,687 | INFO | Params: 10,046,579
+2025-08-20 21:24:55,822 | INFO | Epoch 001 | train: loss=0.5525, mIoU=0.5304, bg=0.7711, fg=0.2896 | val: loss=0.8510, mIoU=0.4067, bg=0.8134, fg=0.0000
+2025-08-20 21:24:55,945 | INFO | New best mIoU: 0.4067 -> saved checkpoints\UNet_efficientnet-b2_20250820-212342\best.pt
+2025-08-20 21:26:05,677 | INFO | Epoch 002 | train: loss=0.3699, mIoU=0.6707, bg=0.8425, fg=0.4989 | val: loss=1.0354, mIoU=0.4067, bg=0.8134, fg=0.0000
+2025-08-20 21:27:14,122 | INFO | Epoch 003 | train: loss=0.3464, mIoU=0.6888, bg=0.8524, fg=0.5253 | val: loss=0.9369, mIoU=0.4067, bg=0.8134, fg=0.0000
+2025-08-20 21:28:22,846 | INFO | Epoch 004 | train: loss=0.3260, mIoU=0.7020, bg=0.8589, fg=0.5452 | val: loss=1.1077, mIoU=0.4067, bg=0.8134, fg=0.0000
+2025-08-20 21:29:31,262 | INFO | Epoch 005 | train: loss=0.3191, mIoU=0.7094, bg=0.8604, fg=0.5585 | val: loss=0.9666, mIoU=0.4067, bg=0.8134, fg=0.0000
+2025-08-20 21:30:39,800 | INFO | Epoch 006 | train: loss=0.2918, mIoU=0.7289, bg=0.8746, fg=0.5833 | val: loss=1.2503, mIoU=0.4067, bg=0.8134, fg=0.0000
+2025-08-20 21:31:48,028 | INFO | Epoch 007 | train: loss=0.3002, mIoU=0.7234, bg=0.8677, fg=0.5791 | val: loss=0.8825, mIoU=0.4067, bg=0.8134, fg=0.0000
+2025-08-20 21:32:57,280 | INFO | Epoch 008 | train: loss=0.3238, mIoU=0.7162, bg=0.8656, fg=0.5669 | val: loss=0.8115, mIoU=0.4067, bg=0.8134, fg=0.0000
+2025-08-20 21:34:11,605 | INFO | Epoch 009 | train: loss=0.3136, mIoU=0.7212, bg=0.8680, fg=0.5745 | val: loss=1.2946, mIoU=0.4067, bg=0.8134, fg=0.0000
+2025-08-20 21:35:26,351 | INFO | Epoch 010 | train: loss=0.2969, mIoU=0.7235, bg=0.8685, fg=0.5785 | val: loss=1.0961, mIoU=0.4067, bg=0.8134, fg=0.0000
+2025-08-20 21:36:40,360 | INFO | Epoch 011 | train: loss=0.2711, mIoU=0.7448, bg=0.8796, fg=0.6101 | val: loss=0.9532, mIoU=0.4067, bg=0.8134, fg=0.0000
+2025-08-20 21:37:53,282 | INFO | Epoch 012 | train: loss=0.2719, mIoU=0.7420, bg=0.8782, fg=0.6058 | val: loss=0.9794, mIoU=0.4071, bg=0.8135, fg=0.0008
+2025-08-20 21:37:53,416 | INFO | New best mIoU: 0.4071 -> saved checkpoints\UNet_efficientnet-b2_20250820-212342\best.pt
+2025-08-20 21:39:02,300 | INFO | Epoch 013 | train: loss=0.2834, mIoU=0.7324, bg=0.8708, fg=0.5939 | val: loss=0.3664, mIoU=0.6906, bg=0.8790, fg=0.5023
+2025-08-20 21:39:02,461 | INFO | New best mIoU: 0.6906 -> saved checkpoints\UNet_efficientnet-b2_20250820-212342\best.pt
+2025-08-20 21:40:11,269 | INFO | Epoch 014 | train: loss=0.2704, mIoU=0.7447, bg=0.8805, fg=0.6089 | val: loss=0.3283, mIoU=0.6953, bg=0.8757, fg=0.5148
+2025-08-20 21:40:11,407 | INFO | New best mIoU: 0.6953 -> saved checkpoints\UNet_efficientnet-b2_20250820-212342\best.pt
+2025-08-20 21:41:19,986 | INFO | Epoch 015 | train: loss=0.2579, mIoU=0.7499, bg=0.8842, fg=0.6156 | val: loss=0.2693, mIoU=0.7419, bg=0.8803, fg=0.6036
+2025-08-20 21:41:20,123 | INFO | New best mIoU: 0.7419 -> saved checkpoints\UNet_efficientnet-b2_20250820-212342\best.pt
+2025-08-20 21:42:31,983 | INFO | Epoch 016 | train: loss=0.2693, mIoU=0.7421, bg=0.8794, fg=0.6048 | val: loss=0.2628, mIoU=0.7438, bg=0.8832, fg=0.6045
+2025-08-20 21:42:32,119 | INFO | New best mIoU: 0.7438 -> saved checkpoints\UNet_efficientnet-b2_20250820-212342\best.pt
+2025-08-20 21:43:46,787 | INFO | Epoch 017 | train: loss=0.2568, mIoU=0.7533, bg=0.8848, fg=0.6219 | val: loss=0.3138, mIoU=0.6846, bg=0.8282, fg=0.5411
+2025-08-20 21:45:00,813 | INFO | Epoch 018 | train: loss=0.2466, mIoU=0.7573, bg=0.8860, fg=0.6286 | val: loss=0.2655, mIoU=0.7349, bg=0.8674, fg=0.6024
+2025-08-20 21:46:14,990 | INFO | Epoch 019 | train: loss=0.2482, mIoU=0.7657, bg=0.8907, fg=0.6407 | val: loss=0.2365, mIoU=0.7779, bg=0.9005, fg=0.6552
+2025-08-20 21:46:15,148 | INFO | New best mIoU: 0.7779 -> saved checkpoints\UNet_efficientnet-b2_20250820-212342\best.pt
+2025-08-20 21:47:29,169 | INFO | Epoch 020 | train: loss=0.2607, mIoU=0.7526, bg=0.8821, fg=0.6232 | val: loss=0.2385, mIoU=0.7741, bg=0.8984, fg=0.6498
+2025-08-20 21:48:44,124 | INFO | Epoch 021 | train: loss=0.2535, mIoU=0.7581, bg=0.8888, fg=0.6274 | val: loss=0.2291, mIoU=0.7649, bg=0.8881, fg=0.6416
+2025-08-20 21:49:57,497 | INFO | Epoch 022 | train: loss=0.2310, mIoU=0.7731, bg=0.8951, fg=0.6510 | val: loss=0.2288, mIoU=0.7690, bg=0.8811, fg=0.6570
+2025-08-20 21:51:10,910 | INFO | Epoch 023 | train: loss=0.2288, mIoU=0.7741, bg=0.8937, fg=0.6544 | val: loss=0.2199, mIoU=0.7839, bg=0.9022, fg=0.6656
+2025-08-20 21:51:11,054 | INFO | New best mIoU: 0.7839 -> saved checkpoints\UNet_efficientnet-b2_20250820-212342\best.pt
+2025-08-20 21:52:24,656 | INFO | Epoch 024 | train: loss=0.2345, mIoU=0.7703, bg=0.8941, fg=0.6464 | val: loss=0.2200, mIoU=0.7776, bg=0.8936, fg=0.6616
+2025-08-20 21:53:36,449 | INFO | Epoch 025 | train: loss=0.2266, mIoU=0.7777, bg=0.8966, fg=0.6589 | val: loss=0.2227, mIoU=0.7796, bg=0.9007, fg=0.6584
+2025-08-20 21:54:45,835 | INFO | Epoch 026 | train: loss=0.2247, mIoU=0.7753, bg=0.8975, fg=0.6530 | val: loss=0.2457, mIoU=0.7586, bg=0.8839, fg=0.6332
+2025-08-20 21:55:55,143 | INFO | Epoch 027 | train: loss=0.2080, mIoU=0.7922, bg=0.9023, fg=0.6820 | val: loss=0.2317, mIoU=0.7700, bg=0.8928, fg=0.6471
+2025-08-20 21:57:03,089 | INFO | Epoch 028 | train: loss=0.2244, mIoU=0.7821, bg=0.8995, fg=0.6648 | val: loss=0.2232, mIoU=0.7735, bg=0.8905, fg=0.6565
+2025-08-20 21:58:14,170 | INFO | Epoch 029 | train: loss=0.2442, mIoU=0.7662, bg=0.8886, fg=0.6438 | val: loss=0.2738, mIoU=0.7467, bg=0.8874, fg=0.6061
+2025-08-20 21:59:28,119 | INFO | Epoch 030 | train: loss=0.2195, mIoU=0.7872, bg=0.9021, fg=0.6723 | val: loss=0.2166, mIoU=0.7891, bg=0.9072, fg=0.6710
+2025-08-20 21:59:28,329 | INFO | New best mIoU: 0.7891 -> saved checkpoints\UNet_efficientnet-b2_20250820-212342\best.pt
+2025-08-20 22:00:42,143 | INFO | Epoch 031 | train: loss=0.2120, mIoU=0.7897, bg=0.9004, fg=0.6790 | val: loss=0.2195, mIoU=0.7800, bg=0.8924, fg=0.6676
+2025-08-20 22:01:54,862 | INFO | Epoch 032 | train: loss=0.2095, mIoU=0.7890, bg=0.8997, fg=0.6782 | val: loss=0.2522, mIoU=0.7487, bg=0.8703, fg=0.6270
+2025-08-20 22:03:09,077 | INFO | Epoch 033 | train: loss=0.2047, mIoU=0.7965, bg=0.9057, fg=0.6874 | val: loss=0.2144, mIoU=0.7947, bg=0.9048, fg=0.6846
+2025-08-20 22:03:09,209 | INFO | New best mIoU: 0.7947 -> saved checkpoints\UNet_efficientnet-b2_20250820-212342\best.pt
+2025-08-20 22:04:23,422 | INFO | Epoch 034 | train: loss=0.2037, mIoU=0.7990, bg=0.9095, fg=0.6885 | val: loss=0.2206, mIoU=0.7717, bg=0.8899, fg=0.6536
+2025-08-20 22:05:36,823 | INFO | Epoch 035 | train: loss=0.2028, mIoU=0.7997, bg=0.9067, fg=0.6928 | val: loss=0.2242, mIoU=0.7824, bg=0.9006, fg=0.6642
+2025-08-20 22:06:45,763 | INFO | Epoch 036 | train: loss=0.1872, mIoU=0.8113, bg=0.9148, fg=0.7077 | val: loss=0.2135, mIoU=0.7948, bg=0.9090, fg=0.6805
+2025-08-20 22:06:45,912 | INFO | New best mIoU: 0.7948 -> saved checkpoints\UNet_efficientnet-b2_20250820-212342\best.pt
+2025-08-20 22:07:54,117 | INFO | Epoch 037 | train: loss=0.1856, mIoU=0.8116, bg=0.9147, fg=0.7084 | val: loss=0.2097, mIoU=0.7942, bg=0.9088, fg=0.6796
+2025-08-20 22:09:03,087 | INFO | Epoch 038 | train: loss=0.2000, mIoU=0.8079, bg=0.9107, fg=0.7050 | val: loss=0.2166, mIoU=0.7818, bg=0.8893, fg=0.6743
+2025-08-20 22:10:12,284 | INFO | Epoch 039 | train: loss=0.2158, mIoU=0.7894, bg=0.9007, fg=0.6780 | val: loss=0.3174, mIoU=0.6983, bg=0.8526, fg=0.5440
+2025-08-20 22:11:20,267 | INFO | Epoch 040 | train: loss=0.1864, mIoU=0.8100, bg=0.9154, fg=0.7047 | val: loss=0.1975, mIoU=0.7999, bg=0.9135, fg=0.6863
+2025-08-20 22:11:20,398 | INFO | New best mIoU: 0.7999 -> saved checkpoints\UNet_efficientnet-b2_20250820-212342\best.pt
+2025-08-20 22:12:28,427 | INFO | Epoch 041 | train: loss=0.1703, mIoU=0.8249, bg=0.9189, fg=0.7310 | val: loss=0.1979, mIoU=0.8027, bg=0.9078, fg=0.6976
+2025-08-20 22:12:28,560 | INFO | New best mIoU: 0.8027 -> saved checkpoints\UNet_efficientnet-b2_20250820-212342\best.pt
+2025-08-20 22:13:38,234 | INFO | Epoch 042 | train: loss=0.1685, mIoU=0.8257, bg=0.9197, fg=0.7316 | val: loss=0.1936, mIoU=0.8095, bg=0.9097, fg=0.7093
+2025-08-20 22:13:38,372 | INFO | New best mIoU: 0.8095 -> saved checkpoints\UNet_efficientnet-b2_20250820-212342\best.pt
+2025-08-20 22:14:52,293 | INFO | Epoch 043 | train: loss=0.1732, mIoU=0.8262, bg=0.9235, fg=0.7289 | val: loss=0.1878, mIoU=0.8116, bg=0.9101, fg=0.7132
+2025-08-20 22:14:52,454 | INFO | New best mIoU: 0.8116 -> saved checkpoints\UNet_efficientnet-b2_20250820-212342\best.pt
+2025-08-20 22:16:06,188 | INFO | Epoch 044 | train: loss=0.1704, mIoU=0.8285, bg=0.9204, fg=0.7366 | val: loss=0.2378, mIoU=0.7852, bg=0.8961, fg=0.6743
+2025-08-20 22:17:19,392 | INFO | Epoch 045 | train: loss=0.1724, mIoU=0.8248, bg=0.9211, fg=0.7285 | val: loss=0.1956, mIoU=0.8132, bg=0.9145, fg=0.7119
+2025-08-20 22:17:19,531 | INFO | New best mIoU: 0.8132 -> saved checkpoints\UNet_efficientnet-b2_20250820-212342\best.pt
+2025-08-20 22:18:33,118 | INFO | Epoch 046 | train: loss=0.1638, mIoU=0.8338, bg=0.9250, fg=0.7425 | val: loss=0.1876, mIoU=0.8185, bg=0.9147, fg=0.7222
+2025-08-20 22:18:33,261 | INFO | New best mIoU: 0.8185 -> saved checkpoints\UNet_efficientnet-b2_20250820-212342\best.pt
+2025-08-20 22:19:46,350 | INFO | Epoch 047 | train: loss=0.1589, mIoU=0.8370, bg=0.9275, fg=0.7465 | val: loss=0.1863, mIoU=0.8189, bg=0.9136, fg=0.7243
+2025-08-20 22:19:46,485 | INFO | New best mIoU: 0.8189 -> saved checkpoints\UNet_efficientnet-b2_20250820-212342\best.pt
+2025-08-20 22:21:00,689 | INFO | Epoch 048 | train: loss=0.1535, mIoU=0.8404, bg=0.9271, fg=0.7537 | val: loss=0.1942, mIoU=0.8100, bg=0.9088, fg=0.7113
+2025-08-20 22:22:14,093 | INFO | Epoch 049 | train: loss=0.1528, mIoU=0.8423, bg=0.9278, fg=0.7568 | val: loss=0.1908, mIoU=0.8161, bg=0.9186, fg=0.7135
+2025-08-20 22:23:27,683 | INFO | Epoch 050 | train: loss=0.1498, mIoU=0.8432, bg=0.9254, fg=0.7611 | val: loss=0.1883, mIoU=0.8181, bg=0.9163, fg=0.7199
+2025-08-20 22:24:41,819 | INFO | Epoch 051 | train: loss=0.1413, mIoU=0.8520, bg=0.9326, fg=0.7713 | val: loss=0.1893, mIoU=0.8192, bg=0.9137, fg=0.7246
+2025-08-20 22:24:41,951 | INFO | New best mIoU: 0.8192 -> saved checkpoints\UNet_efficientnet-b2_20250820-212342\best.pt
+2025-08-20 22:25:52,178 | INFO | Epoch 052 | train: loss=0.1466, mIoU=0.8494, bg=0.9329, fg=0.7660 | val: loss=0.1945, mIoU=0.8085, bg=0.9103, fg=0.7067
+2025-08-20 22:27:01,536 | INFO | Epoch 053 | train: loss=0.1416, mIoU=0.8520, bg=0.9328, fg=0.7712 | val: loss=0.1776, mIoU=0.8258, bg=0.9184, fg=0.7331
+2025-08-20 22:27:01,676 | INFO | New best mIoU: 0.8258 -> saved checkpoints\UNet_efficientnet-b2_20250820-212342\best.pt
+2025-08-20 22:28:09,537 | INFO | Epoch 054 | train: loss=0.1401, mIoU=0.8542, bg=0.9328, fg=0.7756 | val: loss=0.1782, mIoU=0.8280, bg=0.9210, fg=0.7349
+2025-08-20 22:28:09,684 | INFO | New best mIoU: 0.8280 -> saved checkpoints\UNet_efficientnet-b2_20250820-212342\best.pt
+2025-08-20 22:29:17,124 | INFO | Epoch 055 | train: loss=0.1357, mIoU=0.8589, bg=0.9379, fg=0.7798 | val: loss=0.1759, mIoU=0.8286, bg=0.9204, fg=0.7369
+2025-08-20 22:29:17,269 | INFO | New best mIoU: 0.8286 -> saved checkpoints\UNet_efficientnet-b2_20250820-212342\best.pt
+2025-08-20 22:30:25,682 | INFO | Epoch 056 | train: loss=0.1313, mIoU=0.8604, bg=0.9379, fg=0.7828 | val: loss=0.1772, mIoU=0.8248, bg=0.9196, fg=0.7301
+2025-08-20 22:31:33,841 | INFO | Epoch 057 | train: loss=0.1297, mIoU=0.8653, bg=0.9429, fg=0.7878 | val: loss=0.1730, mIoU=0.8272, bg=0.9197, fg=0.7347
+2025-08-20 22:32:42,059 | INFO | Epoch 058 | train: loss=0.1251, mIoU=0.8651, bg=0.9393, fg=0.7908 | val: loss=0.1805, mIoU=0.8249, bg=0.9208, fg=0.7290
+2025-08-20 22:33:50,438 | INFO | Epoch 059 | train: loss=0.1314, mIoU=0.8626, bg=0.9392, fg=0.7861 | val: loss=0.1872, mIoU=0.8189, bg=0.9171, fg=0.7208
+2025-08-20 22:35:03,872 | INFO | Epoch 060 | train: loss=0.1216, mIoU=0.8706, bg=0.9413, fg=0.7998 | val: loss=0.1694, mIoU=0.8319, bg=0.9193, fg=0.7444
+2025-08-20 22:35:04,003 | INFO | New best mIoU: 0.8319 -> saved checkpoints\UNet_efficientnet-b2_20250820-212342\best.pt
+2025-08-20 22:36:17,643 | INFO | Epoch 061 | train: loss=0.1255, mIoU=0.8670, bg=0.9420, fg=0.7920 | val: loss=0.1638, mIoU=0.8382, bg=0.9271, fg=0.7494
+2025-08-20 22:36:17,777 | INFO | New best mIoU: 0.8382 -> saved checkpoints\UNet_efficientnet-b2_20250820-212342\best.pt
+2025-08-20 22:37:31,772 | INFO | Epoch 062 | train: loss=0.1215, mIoU=0.8703, bg=0.9440, fg=0.7966 | val: loss=0.1877, mIoU=0.8157, bg=0.9138, fg=0.7175
+2025-08-20 22:38:45,764 | INFO | Epoch 063 | train: loss=0.1182, mIoU=0.8744, bg=0.9450, fg=0.8038 | val: loss=0.1708, mIoU=0.8278, bg=0.9196, fg=0.7360
+2025-08-20 22:40:01,556 | INFO | Epoch 064 | train: loss=0.1163, mIoU=0.8768, bg=0.9483, fg=0.8053 | val: loss=0.1804, mIoU=0.8232, bg=0.9191, fg=0.7274
+2025-08-20 22:41:15,715 | INFO | Epoch 065 | train: loss=0.1092, mIoU=0.8826, bg=0.9485, fg=0.8166 | val: loss=0.1824, mIoU=0.8177, bg=0.9158, fg=0.7197
+2025-08-20 22:42:29,661 | INFO | Epoch 066 | train: loss=0.1129, mIoU=0.8787, bg=0.9461, fg=0.8112 | val: loss=0.1697, mIoU=0.8298, bg=0.9243, fg=0.7352
+2025-08-20 22:43:43,900 | INFO | Epoch 067 | train: loss=0.1150, mIoU=0.8769, bg=0.9453, fg=0.8086 | val: loss=0.1706, mIoU=0.8267, bg=0.9191, fg=0.7343
+2025-08-20 22:44:57,737 | INFO | Epoch 068 | train: loss=0.1088, mIoU=0.8841, bg=0.9505, fg=0.8177 | val: loss=0.1705, mIoU=0.8318, bg=0.9235, fg=0.7401
+2025-08-20 22:46:08,559 | INFO | Epoch 069 | train: loss=0.1101, mIoU=0.8831, bg=0.9513, fg=0.8149 | val: loss=0.1692, mIoU=0.8316, bg=0.9239, fg=0.7393
+2025-08-20 22:47:17,943 | INFO | Epoch 070 | train: loss=0.1105, mIoU=0.8806, bg=0.9466, fg=0.8146 | val: loss=0.1732, mIoU=0.8261, bg=0.9192, fg=0.7330
+2025-08-20 22:48:26,114 | INFO | Epoch 071 | train: loss=0.1099, mIoU=0.8830, bg=0.9525, fg=0.8135 | val: loss=0.1654, mIoU=0.8366, bg=0.9247, fg=0.7485
+2025-08-20 22:49:34,305 | INFO | Epoch 072 | train: loss=0.1132, mIoU=0.8812, bg=0.9510, fg=0.8114 | val: loss=0.1779, mIoU=0.8236, bg=0.9183, fg=0.7289
+2025-08-20 22:50:48,141 | INFO | Epoch 073 | train: loss=0.1077, mIoU=0.8849, bg=0.9494, fg=0.8205 | val: loss=0.1716, mIoU=0.8301, bg=0.9228, fg=0.7374
+2025-08-20 22:51:57,307 | INFO | Epoch 074 | train: loss=0.1055, mIoU=0.8871, bg=0.9517, fg=0.8225 | val: loss=0.1710, mIoU=0.8288, bg=0.9186, fg=0.7389
+2025-08-20 22:53:05,457 | INFO | Epoch 075 | train: loss=0.1041, mIoU=0.8872, bg=0.9502, fg=0.8241 | val: loss=0.1687, mIoU=0.8325, bg=0.9235, fg=0.7414
+2025-08-20 22:54:13,396 | INFO | Epoch 076 | train: loss=0.1041, mIoU=0.8894, bg=0.9531, fg=0.8257 | val: loss=0.1625, mIoU=0.8381, bg=0.9253, fg=0.7510
+2025-08-20 22:55:23,238 | INFO | Epoch 077 | train: loss=0.1007, mIoU=0.8894, bg=0.9511, fg=0.8277 | val: loss=0.1683, mIoU=0.8345, bg=0.9248, fg=0.7442
+2025-08-20 22:55:23,310 | INFO | Early stopping triggered after 16 bad epochs. Best mIoU=0.8382.
